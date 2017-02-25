@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A120F6DA1CF9AE4400674A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120F6D91CF9AE4400674A54 /* AppDelegate.swift */; };
+		A120F6DC1CF9AE4400674A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120F6DB1CF9AE4400674A54 /* ViewController.swift */; };
+		A120F6DF1CF9AE4400674A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A120F6DD1CF9AE4400674A54 /* Main.storyboard */; };
+		A120F6E11CF9AE4400674A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A120F6E01CF9AE4400674A54 /* Assets.xcassets */; };
+		A120F6E41CF9AE4400674A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A120F6E21CF9AE4400674A54 /* LaunchScreen.storyboard */; };
+		A120F6EF1CF9AE4400674A54 /* alarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120F6EE1CF9AE4400674A54 /* alarmTests.swift */; };
+		A120F6FA1CF9AE4400674A54 /* alarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120F6F91CF9AE4400674A54 /* alarmUITests.swift */; };
+		A18724701D0BF1BC0025F72D /* mezamashi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A187246F1D0BF1BC0025F72D /* mezamashi.mp3 */; };
+		A18724721D0C26330025F72D /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A18724711D0C26330025F72D /* music.mp3 */; };
+		A195F3CA1D1E7500008A6C3D /* MeiroViewControllerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A195F3C91D1E7500008A6C3D /* MeiroViewControllerFile.swift */; };
+		A1A13FA21D5C1EE600218546 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = A1A13FA11D5C1EE600218546 /* back.png */; };
+		A1E3BCAD1CF9E29D006245C6 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC971CF9E29D006245C6 /* Contents.json */; };
+		A1E3BCAE1CF9E29D006245C6 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC981CF9E29D006245C6 /* Icon-40.png */; };
+		A1E3BCAF1CF9E29D006245C6 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC991CF9E29D006245C6 /* Icon-40@2x.png */; };
+		A1E3BCB01CF9E29D006245C6 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC9A1CF9E29D006245C6 /* Icon-40@3x.png */; };
+		A1E3BCB11CF9E29D006245C6 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC9B1CF9E29D006245C6 /* Icon-60@2x.png */; };
+		A1E3BCB21CF9E29D006245C6 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC9C1CF9E29D006245C6 /* Icon-60@3x.png */; };
+		A1E3BCB31CF9E29D006245C6 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC9D1CF9E29D006245C6 /* Icon-76.png */; };
+		A1E3BCB41CF9E29D006245C6 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC9E1CF9E29D006245C6 /* Icon-76@2x.png */; };
+		A1E3BCB51CF9E29D006245C6 /* Icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BC9F1CF9E29D006245C6 /* Icon-83.5@2x.png */; };
+		A1E3BCB61CF9E29D006245C6 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA01CF9E29D006245C6 /* Icon-Small.png */; };
+		A1E3BCB71CF9E29D006245C6 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA11CF9E29D006245C6 /* Icon-Small@2x.png */; };
+		A1E3BCB81CF9E29D006245C6 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA21CF9E29D006245C6 /* Icon-Small@3x.png */; };
+		A1E3BCB91CF9E29D006245C6 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA31CF9E29D006245C6 /* Icon-60.png */; };
+		A1E3BCBA1CF9E29D006245C6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA41CF9E29D006245C6 /* Icon-72.png */; };
+		A1E3BCBB1CF9E29D006245C6 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA51CF9E29D006245C6 /* Icon-72@2x.png */; };
+		A1E3BCBC1CF9E29D006245C6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA61CF9E29D006245C6 /* Icon-Small-50.png */; };
+		A1E3BCBD1CF9E29D006245C6 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA71CF9E29D006245C6 /* Icon-Small-50@2x.png */; };
+		A1E3BCBE1CF9E29D006245C6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA81CF9E29D006245C6 /* Icon.png */; };
+		A1E3BCBF1CF9E29D006245C6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCA91CF9E29D006245C6 /* Icon@2x.png */; };
+		A1E3BCC01CF9E29D006245C6 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCAA1CF9E29D006245C6 /* iTunesArtwork.png */; };
+		A1E3BCC11CF9E29D006245C6 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCAB1CF9E29D006245C6 /* iTunesArtwork@2x.png */; };
+		A1E3BCCE1CF9F630006245C6 /* hunwariusagi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCCD1CF9F630006245C6 /* hunwariusagi.ttf */; };
+		A1E3BCD01CF9FE1F006245C6 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCCF1CF9FE1F006245C6 /* moon.png */; };
+		A1E3BCD21CF9FE28006245C6 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A1E3BCD11CF9FE28006245C6 /* star.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A120F6EB1CF9AE4400674A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A120F6CE1CF9AE4400674A54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A120F6D51CF9AE4400674A54;
+			remoteInfo = alarm;
+		};
+		A120F6F61CF9AE4400674A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A120F6CE1CF9AE4400674A54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A120F6D51CF9AE4400674A54;
+			remoteInfo = alarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A120F6D61CF9AE4400674A54 /* Maze Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maze Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A120F6D91CF9AE4400674A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A120F6DB1CF9AE4400674A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A120F6DE1CF9AE4400674A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A120F6E01CF9AE4400674A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A120F6E31CF9AE4400674A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A120F6E51CF9AE4400674A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A120F6EA1CF9AE4400674A54 /* Maze Alarm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maze Alarm.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A120F6EE1CF9AE4400674A54 /* alarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmTests.swift; sourceTree = "<group>"; };
+		A120F6F01CF9AE4400674A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A120F6F51CF9AE4400674A54 /* Maze Alarm.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maze Alarm.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A120F6F91CF9AE4400674A54 /* alarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmUITests.swift; sourceTree = "<group>"; };
+		A120F6FB1CF9AE4400674A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A187246F1D0BF1BC0025F72D /* mezamashi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mezamashi.mp3; sourceTree = "<group>"; };
+		A18724711D0C26330025F72D /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		A195F3C91D1E7500008A6C3D /* MeiroViewControllerFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeiroViewControllerFile.swift; path = ../MeiroViewControllerFile.swift; sourceTree = "<group>"; };
+		A1A13FA11D5C1EE600218546 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		A1E3BC971CF9E29D006245C6 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		A1E3BC981CF9E29D006245C6 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		A1E3BC991CF9E29D006245C6 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		A1E3BC9A1CF9E29D006245C6 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		A1E3BC9B1CF9E29D006245C6 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		A1E3BC9C1CF9E29D006245C6 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		A1E3BC9D1CF9E29D006245C6 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		A1E3BC9E1CF9E29D006245C6 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		A1E3BC9F1CF9E29D006245C6 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		A1E3BCA01CF9E29D006245C6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A1E3BCA11CF9E29D006245C6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A1E3BCA21CF9E29D006245C6 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		A1E3BCA31CF9E29D006245C6 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		A1E3BCA41CF9E29D006245C6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		A1E3BCA51CF9E29D006245C6 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		A1E3BCA61CF9E29D006245C6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		A1E3BCA71CF9E29D006245C6 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		A1E3BCA81CF9E29D006245C6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A1E3BCA91CF9E29D006245C6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A1E3BCAA1CF9E29D006245C6 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		A1E3BCAB1CF9E29D006245C6 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		A1E3BCCD1CF9F630006245C6 /* hunwariusagi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hunwariusagi.ttf; sourceTree = "<group>"; };
+		A1E3BCCF1CF9FE1F006245C6 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		A1E3BCD11CF9FE28006245C6 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = alarm/star.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A120F6D31CF9AE4400674A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120F6E71CF9AE4400674A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120F6F21CF9AE4400674A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A120F6CD1CF9AE4400674A54 = {
+			isa = PBXGroup;
+			children = (
+				A1A13FA11D5C1EE600218546 /* back.png */,
+				A18724711D0C26330025F72D /* music.mp3 */,
+				A187246F1D0BF1BC0025F72D /* mezamashi.mp3 */,
+				A1E3BCCD1CF9F630006245C6 /* hunwariusagi.ttf */,
+				A1E3BCCF1CF9FE1F006245C6 /* moon.png */,
+				A1E3BCD11CF9FE28006245C6 /* star.png */,
+				A120F6D81CF9AE4400674A54 /* alarm */,
+				A120F6ED1CF9AE4400674A54 /* alarmTests */,
+				A120F6F81CF9AE4400674A54 /* alarmUITests */,
+				A120F6D71CF9AE4400674A54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A120F6D71CF9AE4400674A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A120F6D61CF9AE4400674A54 /* Maze Alarm.app */,
+				A120F6EA1CF9AE4400674A54 /* Maze Alarm.xctest */,
+				A120F6F51CF9AE4400674A54 /* Maze Alarm.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A120F6D81CF9AE4400674A54 /* alarm */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3BC951CF9E29D006245C6 /* ios */,
+				A120F6D91CF9AE4400674A54 /* AppDelegate.swift */,
+				A120F6DB1CF9AE4400674A54 /* ViewController.swift */,
+				A195F3C91D1E7500008A6C3D /* MeiroViewControllerFile.swift */,
+				A120F6DD1CF9AE4400674A54 /* Main.storyboard */,
+				A120F6E01CF9AE4400674A54 /* Assets.xcassets */,
+				A120F6E21CF9AE4400674A54 /* LaunchScreen.storyboard */,
+				A120F6E51CF9AE4400674A54 /* Info.plist */,
+			);
+			path = alarm;
+			sourceTree = "<group>";
+		};
+		A120F6ED1CF9AE4400674A54 /* alarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				A120F6EE1CF9AE4400674A54 /* alarmTests.swift */,
+				A120F6F01CF9AE4400674A54 /* Info.plist */,
+			);
+			path = alarmTests;
+			sourceTree = "<group>";
+		};
+		A120F6F81CF9AE4400674A54 /* alarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A120F6F91CF9AE4400674A54 /* alarmUITests.swift */,
+				A120F6FB1CF9AE4400674A54 /* Info.plist */,
+			);
+			path = alarmUITests;
+			sourceTree = "<group>";
+		};
+		A1E3BC951CF9E29D006245C6 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3BC961CF9E29D006245C6 /* AppIcon.appiconset */,
+				A1E3BCA31CF9E29D006245C6 /* Icon-60.png */,
+				A1E3BCA41CF9E29D006245C6 /* Icon-72.png */,
+				A1E3BCA51CF9E29D006245C6 /* Icon-72@2x.png */,
+				A1E3BCA61CF9E29D006245C6 /* Icon-Small-50.png */,
+				A1E3BCA71CF9E29D006245C6 /* Icon-Small-50@2x.png */,
+				A1E3BCA81CF9E29D006245C6 /* Icon.png */,
+				A1E3BCA91CF9E29D006245C6 /* Icon@2x.png */,
+				A1E3BCAA1CF9E29D006245C6 /* iTunesArtwork.png */,
+				A1E3BCAB1CF9E29D006245C6 /* iTunesArtwork@2x.png */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		A1E3BC961CF9E29D006245C6 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3BC971CF9E29D006245C6 /* Contents.json */,
+				A1E3BC981CF9E29D006245C6 /* Icon-40.png */,
+				A1E3BC991CF9E29D006245C6 /* Icon-40@2x.png */,
+				A1E3BC9A1CF9E29D006245C6 /* Icon-40@3x.png */,
+				A1E3BC9B1CF9E29D006245C6 /* Icon-60@2x.png */,
+				A1E3BC9C1CF9E29D006245C6 /* Icon-60@3x.png */,
+				A1E3BC9D1CF9E29D006245C6 /* Icon-76.png */,
+				A1E3BC9E1CF9E29D006245C6 /* Icon-76@2x.png */,
+				A1E3BC9F1CF9E29D006245C6 /* Icon-83.5@2x.png */,
+				A1E3BCA01CF9E29D006245C6 /* Icon-Small.png */,
+				A1E3BCA11CF9E29D006245C6 /* Icon-Small@2x.png */,
+				A1E3BCA21CF9E29D006245C6 /* Icon-Small@3x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A120F6D51CF9AE4400674A54 /* Maze Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A120F6FE1CF9AE4400674A54 /* Build configuration list for PBXNativeTarget "Maze Alarm" */;
+			buildPhases = (
+				A120F6D21CF9AE4400674A54 /* Sources */,
+				A120F6D31CF9AE4400674A54 /* Frameworks */,
+				A120F6D41CF9AE4400674A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maze Alarm";
+			productName = alarm;
+			productReference = A120F6D61CF9AE4400674A54 /* Maze Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A120F6E91CF9AE4400674A54 /* Maze AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A120F7011CF9AE4400674A54 /* Build configuration list for PBXNativeTarget "Maze AlarmTests" */;
+			buildPhases = (
+				A120F6E61CF9AE4400674A54 /* Sources */,
+				A120F6E71CF9AE4400674A54 /* Frameworks */,
+				A120F6E81CF9AE4400674A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A120F6EC1CF9AE4400674A54 /* PBXTargetDependency */,
+			);
+			name = "Maze AlarmTests";
+			productName = alarmTests;
+			productReference = A120F6EA1CF9AE4400674A54 /* Maze Alarm.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A120F6F41CF9AE4400674A54 /* Maze AlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A120F7041CF9AE4400674A54 /* Build configuration list for PBXNativeTarget "Maze AlarmUITests" */;
+			buildPhases = (
+				A120F6F11CF9AE4400674A54 /* Sources */,
+				A120F6F21CF9AE4400674A54 /* Frameworks */,
+				A120F6F31CF9AE4400674A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A120F6F71CF9AE4400674A54 /* PBXTargetDependency */,
+			);
+			name = "Maze AlarmUITests";
+			productName = alarmUITests;
+			productReference = A120F6F51CF9AE4400674A54 /* Maze Alarm.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A120F6CE1CF9AE4400674A54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "石森愛海";
+				TargetAttributes = {
+					A120F6D51CF9AE4400674A54 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 69V49LNKK7;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A120F6E91CF9AE4400674A54 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JQ6AUCT297;
+						TestTargetID = A120F6D51CF9AE4400674A54;
+					};
+					A120F6F41CF9AE4400674A54 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = JQ6AUCT297;
+						TestTargetID = A120F6D51CF9AE4400674A54;
+					};
+				};
+			};
+			buildConfigurationList = A120F6D11CF9AE4400674A54 /* Build configuration list for PBXProject "Maze Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A120F6CD1CF9AE4400674A54;
+			productRefGroup = A120F6D71CF9AE4400674A54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A120F6D51CF9AE4400674A54 /* Maze Alarm */,
+				A120F6E91CF9AE4400674A54 /* Maze AlarmTests */,
+				A120F6F41CF9AE4400674A54 /* Maze AlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A120F6D41CF9AE4400674A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E3BCD01CF9FE1F006245C6 /* moon.png in Resources */,
+				A1E3BCBC1CF9E29D006245C6 /* Icon-Small-50.png in Resources */,
+				A1E3BCD21CF9FE28006245C6 /* star.png in Resources */,
+				A120F6E41CF9AE4400674A54 /* LaunchScreen.storyboard in Resources */,
+				A1E3BCBD1CF9E29D006245C6 /* Icon-Small-50@2x.png in Resources */,
+				A120F6E11CF9AE4400674A54 /* Assets.xcassets in Resources */,
+				A1E3BCBB1CF9E29D006245C6 /* Icon-72@2x.png in Resources */,
+				A1E3BCCE1CF9F630006245C6 /* hunwariusagi.ttf in Resources */,
+				A1E3BCBF1CF9E29D006245C6 /* Icon@2x.png in Resources */,
+				A120F6DF1CF9AE4400674A54 /* Main.storyboard in Resources */,
+				A1E3BCB81CF9E29D006245C6 /* Icon-Small@3x.png in Resources */,
+				A1E3BCB61CF9E29D006245C6 /* Icon-Small.png in Resources */,
+				A1E3BCC01CF9E29D006245C6 /* iTunesArtwork.png in Resources */,
+				A1E3BCAF1CF9E29D006245C6 /* Icon-40@2x.png in Resources */,
+				A18724701D0BF1BC0025F72D /* mezamashi.mp3 in Resources */,
+				A1E3BCAD1CF9E29D006245C6 /* Contents.json in Resources */,
+				A1E3BCB51CF9E29D006245C6 /* Icon-83.5@2x.png in Resources */,
+				A1E3BCB41CF9E29D006245C6 /* Icon-76@2x.png in Resources */,
+				A1E3BCBE1CF9E29D006245C6 /* Icon.png in Resources */,
+				A1E3BCB01CF9E29D006245C6 /* Icon-40@3x.png in Resources */,
+				A1E3BCB91CF9E29D006245C6 /* Icon-60.png in Resources */,
+				A1E3BCB21CF9E29D006245C6 /* Icon-60@3x.png in Resources */,
+				A18724721D0C26330025F72D /* music.mp3 in Resources */,
+				A1E3BCB31CF9E29D006245C6 /* Icon-76.png in Resources */,
+				A1E3BCC11CF9E29D006245C6 /* iTunesArtwork@2x.png in Resources */,
+				A1E3BCAE1CF9E29D006245C6 /* Icon-40.png in Resources */,
+				A1A13FA21D5C1EE600218546 /* back.png in Resources */,
+				A1E3BCBA1CF9E29D006245C6 /* Icon-72.png in Resources */,
+				A1E3BCB11CF9E29D006245C6 /* Icon-60@2x.png in Resources */,
+				A1E3BCB71CF9E29D006245C6 /* Icon-Small@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120F6E81CF9AE4400674A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120F6F31CF9AE4400674A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A120F6D21CF9AE4400674A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120F6DC1CF9AE4400674A54 /* ViewController.swift in Sources */,
+				A195F3CA1D1E7500008A6C3D /* MeiroViewControllerFile.swift in Sources */,
+				A120F6DA1CF9AE4400674A54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120F6E61CF9AE4400674A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120F6EF1CF9AE4400674A54 /* alarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120F6F11CF9AE4400674A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120F6FA1CF9AE4400674A54 /* alarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A120F6EC1CF9AE4400674A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A120F6D51CF9AE4400674A54 /* Maze Alarm */;
+			targetProxy = A120F6EB1CF9AE4400674A54 /* PBXContainerItemProxy */;
+		};
+		A120F6F71CF9AE4400674A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A120F6D51CF9AE4400674A54 /* Maze Alarm */;
+			targetProxy = A120F6F61CF9AE4400674A54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A120F6DD1CF9AE4400674A54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A120F6DE1CF9AE4400674A54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A120F6E21CF9AE4400674A54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A120F6E31CF9AE4400674A54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A120F6FC1CF9AE4400674A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A120F6FD1CF9AE4400674A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A120F6FF1CF9AE4400674A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = alarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishimori.exapp;
+				PRODUCT_NAME = "Maze Alarm";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A120F7001CF9AE4400674A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = alarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ishimori.exapp;
+				PRODUCT_NAME = "Maze Alarm";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A120F7021CF9AE4400674A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = alarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.alarmTests;
+				PRODUCT_NAME = "Maze Alarm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze Alarm.app/Maze Alarm";
+			};
+			name = Debug;
+		};
+		A120F7031CF9AE4400674A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = alarmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.alarmTests;
+				PRODUCT_NAME = "Maze Alarm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze Alarm.app/Maze Alarm";
+			};
+			name = Release;
+		};
+		A120F7051CF9AE4400674A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = alarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.alarmUITests;
+				PRODUCT_NAME = "Maze Alarm";
+				TEST_TARGET_NAME = alarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A120F7061CF9AE4400674A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = alarmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.alarmUITests;
+				PRODUCT_NAME = "Maze Alarm";
+				TEST_TARGET_NAME = alarm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A120F6D11CF9AE4400674A54 /* Build configuration list for PBXProject "Maze Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120F6FC1CF9AE4400674A54 /* Debug */,
+				A120F6FD1CF9AE4400674A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A120F6FE1CF9AE4400674A54 /* Build configuration list for PBXNativeTarget "Maze Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120F6FF1CF9AE4400674A54 /* Debug */,
+				A120F7001CF9AE4400674A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A120F7011CF9AE4400674A54 /* Build configuration list for PBXNativeTarget "Maze AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120F7021CF9AE4400674A54 /* Debug */,
+				A120F7031CF9AE4400674A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A120F7041CF9AE4400674A54 /* Build configuration list for PBXNativeTarget "Maze AlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120F7051CF9AE4400674A54 /* Debug */,
+				A120F7061CF9AE4400674A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A120F6CE1CF9AE4400674A54 /* Project object */;
+}
